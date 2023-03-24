@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {margin: 0; padding: 0; box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'GmarketSansLight';}
+ 
+ li {list-style-type:none;}
+ a  {text-decoration:none; color: #000;}
+ img {border:none;}
+ 
+ 
+ 
+/*   작은 화면   */
+@media screen and (max-width:880px){
+    
+footer { background-image: url(../img/footer_880.png);
+     width: 100%;
+     height: 220px;
+     background-repeat: no-repeat;
+     display: flex;
+    justify-content: space-between;
+}
+      
+
+/* footer1 왼쪽 */
+.footer1 {
+    width: 300px;
+    margin: 10px 5px 5px 10px;
+    text-align: left;
+    font-size: 18px;
+
+ }
+
+.footer_logo {
+    background-image: url(../img/header_1900.png);
+    width: 100px;
+    height: 40px;
+    margin: 0 0 25px 0;
+    background-size: contain;   
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+.num {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.add {
+    font-size: 13px;
+    line-height: 15px;
+    margin: 15px 0 0 0;
+}
+
+
+/* footer2 오른쪽 */
+.footer2 { 
+    width: 300px;
+    margin: 10px 10px 5px 0;
+    text-align: right;
+}
+
+.sns li {
+    display: inline;
+}
+
+.sns > ul img {
+    margin-bottom: 5px;
+}
+
+.mark {
+    font-size: 13px;
+    display: inline-flex;
+    margin-top: 60px;
+}
+
+.markTxt {
+    margin-top: 15px;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+
+.copy li {
+    display: inline;
+    color: #000;  
+}
+
+.copy li a {
+    font-size: 13px;
+}
+
+.copy > .copy_r {
+    margin-top: 0;
+    font-size: 13px;
+}
+
+}
+
+
+
+/*   큰 화면   */
+@media screen and (min-width:881px)  {
+    
+footer { background-image: url(../img/ft_1900.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+   }
+         
+   
+/* footer1 왼쪽 */
+.footer1 { 
+    width: 300px;
+    margin: 20px 5px 5px 20px;
+    text-align: left;
+    font-size: 30px;
+   
+}
+   
+.footer_logo {
+    background-image: url(../img/header_1900.png);
+    width: 130px;
+    height: 80px;
+    margin: 0 0 25px 0;
+    background-size: contain;   
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+   
+.num {
+    font-size: 18px;
+    line-height: 20px;
+}
+   
+.add {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 25px 0 0 0;
+ }
+   
+   
+/* footer2 오른쪽 */
+.footer2 { 
+    width: 300px;
+    margin: 20px 20px 5px 0;
+    text-align: right;
+}
+   
+.sns li {
+    display: inline;
+       
+}
+
+
+.sns > ul img { 
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-bottom: 35px;
+  }
+   
+.mark {
+    font-size: 5px;
+    display: inline-flex;
+    margin-top: 60px;
+}
+
+.mark > div img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+   
+.markTxt {
+    margin-top: 15px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.copy li {
+    display: inline;
+    color: #000; 
+}
+.copy li a {
+    font-size: 15px;
+}
+
+.copy > p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+}
