@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+    <html lang="ko">
+        <head>
+            <title>SERVICE</title>
+            <meta charset="utf-8">
+            <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+            <link rel="icon" type="image/x-icon" href="img/icon2.png">
+            <link rel="stylesheet" href="css/service.css">
+            <link rel="stylesheet" href="css/HD-style.css">
+            <link rel="stylesheet" href="css/ft_style.css">
+            <link rel="next" href="about.html">
+            <link rel="next" href="edit.html">
+            <link rel="next" href="MAIN_1.html">
+            <link rel="next" href="list(제외).html">
+            <link rel="next" href="ROOM_ALL.html">
+            <link rel="next" href="simile-FAQ.html">
+            <link rel="next" href="simile-gallery.html">
+            <link rel="next" href="simile-notice.html">
+            <link rel="next" href="view.html">
+            <link rel="next" href="write.html">
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script>
+                $(function() {
+var inWrap = $('.inner-wrapper'), $slide = $('.slide'); function slideNext() {inWrap.animate({left: '-200%'}, 200, function() {inWrap.css('left', '-100%');
+
+$('.slide').last().after($('.slide').first());});}sliderInterval = setInterval(slideNext, 4000);
+
+$('.prev').on('click', function() {inWrap.animate({left: '0%'}, 200, function() {inWrap.css('left', '-100%');
+$('.slide').first().before($('.slide').last());});});
+
+$('.next').on('click', function() {clearInterval(sliderInterval); slideNext();});});
+            </script>
+        </head>
+        <body>
+            <!--상단-->
+            <header>
+                <h1><a href="index.html"><img src="img/HD_rogo_1900.png" alt="헤더로고" id="HD_rogo"></a></h1>
+                <nav class="main_M">
+                    <ul class="main_menu">
+                        <li>
+                            <a href="about.html"> ABOUT</a>
+                            <ul class="sub_M" id="z-1">
+                                <li><a href="about.html #a_logo">브랜드소개</a></li>
+                                <li><a href="about.html #a_photo">시설안내</a></li>
+                                <li><a href="about.html #staff">스텝소개</a></li>
+                                <li><a href="about.html #map">오시는길</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="ROOM_ALL.html">ROOM</a>
+                            <ul class="sub_M" id="z-2">
+                                <li><a href="ROOM_ALL.html">전체보기</a></li>
+                                <li><a href="ROOM_ALL.html #Room101">ROOM101</a></li>
+                                <li><a href="ROOM_ALL.html #Room102">ROOM102</a></li>
+                                <li><a href="ROOM_ALL.html #ROOM103">ROOM103</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" >RESERVATION</a>
+                            <ul class="sub_M" id="z-3">
+                                <li><a href="#">전체예약현황</a></li>
+                                <li><a href="#">예약하기</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="service.html">SERVISE</a>
+                            <ul class="sub_M" id="z-4">
+                                <li><a href="service.html #container">픽업서비스</a></li>
+                                <li><a href="service.html #checkbox_b">수영장</a></li>
+                                <li><a href="service.html #container_2">스파</a></li>
+                                <li><a href="service.html #container_3">바베큐</a></li>
+                                <li><a href="service.html #container_4">에메니티</a></li>
+                                <li><a href="service.html #container_6">조식서비스</a></li>
+                                <li><a href="service.html #container_5">물놀이</a></li>
+                                <li><a href="service.html #container_7">여행지추천</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="simile-notice.html">COMMUNITY</a>
+                            <ul class="sub_M" id="z-5">
+                                <li><a href="simile-notice.html">공지사항</a></li>
+                                <li><a href="simile-gallery.html">갤러리</a></li>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!--중단-->
+            <section>
+                <div class="con">
+                    <h1>SERVIECE</h1>
+                    <p>서비스</p>
+                </div>
+               
+                <nav class="sub_bar">
+                    <!-- 서브메뉴 -->  <a href="#container">픽업 서비스</a>
+                                      <a href="#checkbox_b">수영장</a>
+                                      <a href="#container_2">스파</a>
+                                      <a href="#container_3">BBQ</a>
+                                      <a href="#container_4">애견 어메니티</a>
+                                      <a href="#container_5">애견 물놀이용품</a>
+                                      <a href="#container_6">애견 조식서비스</a>
+                                      <a href="#container_7">주변관광지</a>
+                </nav>
+
+                <div class="container" id="container">
+                    <div class="img1"><img src="img/dog2.jpg.png"></div>
+                    <div class="img2"><img src="img/dog1.png"></div>
+                    <h2>SIMILE HOTEL<br><p>반려견 픽업 서비스</p></h2>
+                    <p>저희 픽업 서비스는 반려견과 동반여행을 하시는<br> 
+                        분들의 불편을 덜어드리기 위해 시행하는 서비스 입니다.
+                    <br>
+                    <br>
+                    반려견과 고객을 위한 SIMILE만의 <br> 
+                    특별한 픽업 서비스로 쉽고 편하게 숙소에 도착해보세요.</p>
+                </div>
+
+                <div class="container_parent">
+                    <div class="container_child">
+                        <div class="button_m">
+                        <button class="fillIn">월요일<br>05.11</button>
+                        <button class="fillIn">화요일<br>05.12</button>
+                        <button class="fillIn">수요일<br>05.13</button>
+                        <button class="fillIn">목요일<br>05.14</button>
+                        <button class="fillIn">금요일<br>05.15</button>
+                        <button class="fillIn">토요일<br>05.16</button>
+                        <button class="fillIn">일요일<br>05.17</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <div class="checkbox1"><a href="#">신청 하기</a></div>
+                    <div class="checkbox2"><a href="#">신청 확인</a></div>
+                    <div>
+                    <p>※당일 예약은 불가하오니 미리 예약 부탁드립니다.※</p>
+                    </div>
+                </div>
+
+                <!--수영장-->
+                <div class="checkbox_b" id="checkbox_b">
+                    <h2>SIMILE 애견 동반 실내/외 수영장 <br>
+                        <p>반려견과 함께 즐길 수 있는 실내/외 수영장</p></h2>
+                    
+                </div>
+                    <div class="container_1">
+                        <div class="slider-wrapper">
+                            <div class="inner-wrapper">
+                                <div class="slide"><img src="img/swimming-1.png"></div>
+                                <div class="slide"><img src="img/swimming-2.png"></div>
+                                <div class="slide"><img src="img/swimming-3.png"></div>
+                                <div class="slide"><img src="img/swimming-4.png"></div>
+                            </div>
+                        </div>                    
+                        <div class="button prev"></div>
+                        <div class="button next"></div>
+
+                        <div class="swimfont">
+                            <h1>※이용시간 : 11:00 ~ 22:00 이외 시간은 제한 됩니다.</h1>
+                        </div>
+                        <div class="dog_illust1"></div>
+                    </div>
+                    <div class="container_2" id="container_2">
+                        <div class="box1"></div>
+                        <div class="box2">
+                            <h1>SIMILE 스파</h1>
+                            <img src="img/spa_2.png">
+                            <p>밖의 펼쳐지는 드넓은 바다의 전경과 <br>
+                                함께 쌓인 피로를 마음껏 풀어보세요.</p>
+                        </div>
+                        <div class="dog_illust2"></div>
+                    </div>
+
+                    <!--BBQ-->
+                    <div class="container_3" id="container_3">
+                        <div class="box3"></div>
+                        <div class="box4">
+                            <h1>SIMILE BBQ</h1>
+                            <img src="img/bbq_2.png">
+                            <p>SIMILE 호텔만의 특별한 서비스<br>
+                                반려견과 함께 BBQ파티를 즐겨보세요.</p>
+                        </div>
+                        <div class="dog_illust3"></div>
+                        <div class="box5"></div>
+                    </div>
+
+                    <!--어메니티-->
+                    <div class="container_4" id="container_4">
+                        <div class="box6">
+                            <h1>SIMILE HOTEL 애견 어메니티</h1>
+                            <p>반려견을 위한 SIMILE의 특별한 어메니티</p>
+                            <div class="dog_illust4"></div>
+                            <div class="box7"><p>룸에는 반려견을 위한 목욕 용품, 애견 케어 로션, 침대, 밥그릇도 구비되어 있습니다.</p></div>
+                        </div>
+                        <div class="box8">
+                            <img src="img/amenity_1.png">
+                            <img src="img/amenity_2.png">
+                            <img src="img/amenity_3.png">
+                        </div>
+                    </div>
+
+                    <!--물놀이용품대여-->
+                    <div class="container_5" id="container_5">
+                        <div class="box9">
+                            <h1>SIMILE HOTEL 애견 물놀이 용품</h1>
+                            <p>반려견이 물놀이에 필요한 물놀이 용품 무상 대여</p>
+                        </div>
+                            <div class="box10">
+                                <p>물놀이 가능 대여 용품</p>
+                                <div class="dog_illust5"></div>
+                                <div class="box11"><p>물안경, 구명조끼, 튜브, 비치볼, 수영복, 원반 </p></div>
+                           
+                                <div class="box12">
+                                    <img src="img/water_1.png">
+                                    <img src="img/water_2.png">
+                                    <img src="img/water_3.png">
+                                    <img src="img/water_4.png">
+                                </div>
+                            </div>
+                        </div>
+                    
+                    <!--애견 조식 서비스-->
+                    <div class="container_6" id="container_6">
+                        <div class="box13"><img src="img/jofood-1.png"></div>
+                        <div class="box14">
+                            <h1>SIMILE HOTEL 애견 조식 서비스</h1>
+                            <p>반려견을 위한 SIMILE의 특별한 수제 조식 서비스</p>
+                            <div class="box15">   
+                                <h2>SIMILE 애견 조식 메뉴</h2>
+                                <div class="bt_1">
+                                    <p>아삭아삭 수제 야채볶음</p>
+                                </div>
+                                <div class="bt_2">
+                                    <p>고기고기 수제 육고기볶음</p>
+                                </div>
+                                <div class="bt_3">
+                                    <p>달콤달콤 수제 케이크</p>
+                                </div>
+                                <div class="box16">
+                                    <div class="bs_1">
+                                        <p>친환경 야채를 사용한<br>
+                                            건강식 야채 볶음</p> 
+                                    </div>
+                                    <div class="bs_2">
+                                            <p>직접 기른 야채와 수제 소스가<br> 
+                                                들어간 육고기 볶음</p> 
+                                    </div>
+                                    <div class="bs_3">
+                                        <p>반죽부터 호텔 요리사가 
+                                        <br>직접 만드는 수제 케이크</p> 
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="dog_illust6"></div>
+                            <div class="box17">
+                                <p>한국 최고의 5성급 호텔 쉐프가 <br>직접 수제로 만든 조식으로 반려견의 건강을 챙기세요.</p>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <!--주변관광지-->
+                    <div class="container_7" id="container_7">
+                        <div class="box18">
+                            <h1>SIMILE HOTEL 주변 관광지</h1>
+                            <p>애견동반이 가능한 관광지를 소개해 드립니다!</p>
+                        </div>
+                    </div>
+                    <!--주변관광지-1-->
+                    <div class="container_8">
+                        <div class="cp_1"><img src="img/cp_1.png"></div>
+                        <div class="cp_2">
+                            <h1>금능해수욕장</h1>
+                            <img src="img/arrow_1.png">
+                            <div class="box19">
+                                <div class="cp_a">
+                                    <p>애견 동반 가능</p>
+                                </div>
+                                <div class="cp_b">
+                                    <p>베스트 TOP10</p>
+                                </div>
+                                <div class="cp_c">
+                                    <p>강력추천!</p>
+                                </div>
+                            <div class="box20">
+                                <img src="img/star_1.png">
+                            </div>
+                            <div class="box21">
+                                <p>금능해수욕장은 이웃한 협재해수욕장과 함께 제주 최대의 해수욕장을 이루고 있습니다.<br>
+
+                                    길게 이어진 흰 모래사장과 수심이 얕은 바다가 어우러져 어린이를 동반한 가족 단위 피서객들에게 각광 받고 있습니다.<br>
+                                    
+                                    검은색 용암과 흰 모래 그리고 에메랄드 빛 바다의 조화는 금능해수욕장에서만 볼 수 있는 또 다른 장관입니다.
+                                </p>
+                            </div>
+                            <div class="box22"></div>
+                            <div class="box23">
+                                <p>#수심얕은바다 #화산활동 #가족단위 #피서객 #어린이가놀기좋음 #여름 #물놀이 #최대의해수욕장</p>
+                            </div>
+                            </div>
+                        </div>
+                    
+                    <!--주변관광지2-->
+                    <div class="cp_3">
+                        <h1>협재해수욕장</h1>
+                        <img src="img/arrow_2.png">
+                        <div class="box24">
+                            <div class="cp_d">
+                                <p>강력 추천!</p>
+                            </div>
+                            <div class="cp_e">
+                                <p>베스트 TOP10</p>
+                            </div>
+                            <div class="cp_f">
+                                <p>애견 동반 가능</p>
+                            </div>
+                        <div class="box25">
+                            <img src="img/star_4.png">
+                        </div>
+                        <div class="box26">
+                            <p>비양도를 코앞에 두고 에메랄드빛 바다가 펼쳐지는 협재해수욕장<br>
+
+                                조개가루가 섞인 백사장의 길이는 200여 미터에 불과하고 폭도 넓지 않지만<br>
+                                
+                                수심이 얕아 아무리 멀리까지 걸어 들어가도 어른 허벅지에도 차지 않아 가족 단위 휴양객들이 즐겨 찾습니다.
+                            </p>
+                        </div>
+                        <div class="box27"></div>
+                        <div class="box28">
+                            <p>#에메랄드빛바다 #깨끗한모래사장 #물놀이 #여름 #반려견 #휴양지 #스노우쿨링 #시원함 #제주도바다 #베스트여행지</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="cp_4"><img src="img/cp_2.png"></div>
+                    
+                    <!--주변관광지3-->
+                    <div class="cp_5"><img src="img/cp_3.png"></div>
+                    <div class="cp_6">
+                        <h1>에코랜드</h1>
+                        <img src="img/arrow_3.png">
+                        <div class="box29">
+                            <div class="cp_g">
+                                <p>베스트 TOP10</p>
+                            </div>
+                        <div class="box30">
+                            <img src="img/star_2.png">
+                        </div>
+                        <div class="box31">
+                            <p>에코랜드 테마파크는 링컨 기차로 30만 평의 곶자왈 원시림을 기차로 체험하는 테마파크입니다.<br>
+
+                                30만 평의 곶자왈 부지에 기찻길을 놓고 호수를 만들어 자연생태체험도 하고 산책 및 피크닉도 할 수 있도록 꾸며 놓았습니다.<br>
+                                
+                                기차 여행을 즐기는 동안 신비의 숲 곶자왈에서 서식하는 곤충과 동물 그리고 다양한 식물을 체험 할 수 있습니다.
+                            </p>
+                        </div>
+                        <div class="box32"></div>
+                        <div class="box33">
+                            <p>#기차 #레일 #테마파크 #걷기 #주변둘러보기 #봄 #자연경관 #숲 #다양한식물 #기차체험 #호수 #자연생태체험</p>
+                        </div>
+                        </div>
+                    </div>
+                
+                <!--주변관광지4-->
+                <div class="cp_7">
+                    <h1>한림공원</h1>
+                    <img src="img/arrow_4.png">
+                    <div class="box34">
+                        <div class="cp_h">
+                            <p>강력 추천!</p>
+                        </div>
+                        <div class="cp_j">
+                            <p>베스트 TOP10</p>
+                        </div>
+                        <div class="cp_k">
+                            <p>애견 동반 가능</p>
+                        </div>
+                    <div class="box35">
+                        <img src="img/star_3.png">
+                    </div>
+                    <div class="box36">
+                        <p>창업자 송봉규가 1971년 협재리 바닷가의 황무지 모래밭을 사들여 야자수와 관상수를 심어 가꾼 사설 공원입니다.<br>
+
+                            제주도 자생식물과 워싱턴야자, 관엽식물, 종려나무, 키위, 제주감귤, 선인장 등 2천여 종의 아열대식물이 자라고 있습니다.<br>
+                            
+                            제주석분재원에는 기암괴석과 소나무·모과나무 등의 분재가 전시되어 있으며, 야외휴양시설 등도 갖추었습니다.
+                        </p>
+                    </div>
+                    <div class="box37"></div>
+                    <div class="box38">
+                        <p>#자연 #아열대식물 #산책 #걷기 #반려견 #봄 #자연경관 #야외휴양지 #베스트여행지 #날씨맑음</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="cp_8"><img src="img/cp_4.png"></div>
+                  
+                <!--주변관광지-5-->
+                <div class="cp_9"><img src="img/cp_5.png"></div>
+                <div class="cp_10">
+                    <h1>새별오름</h1>
+                    <img src="img/arrow_5.png">
+                    <div class="box39">
+                        <div class="cp_q">
+                            <p>애견 동반 가능</p>
+                        </div>
+                        <div class="cp_m">
+                            <p>베스트 TOP10</p>
+                        </div>
+                        <div class="cp_n">
+                            <p>강력추천!</p>
+                        </div>
+                    <div class="box40">
+                        <img src="img/star_4.png">
+                    </div>
+                    <div class="box41">
+                        <p>새별오름은 바리메오름·누운오름·당오름·금오름 등 많은 오름이 있는 밀집해 있는 서부 중산간 오름지대 중에서<br> 
+
+                            으뜸가는 서부의 대표 오름이다. 저녁 하늘에 샛별과 같이 외롭게 서있다 하여 붙여진 이름이라 한다.<br>
+                            
+                            풍경이 아름답고, 성이시돌목장, 왕따나무가 근처에 있어 관광객이 많이 찾는 오름 중 하나다.
+                        </p>
+                    </div>
+                    <div class="box42"></div>
+                    <div class="box43">
+                        <p>#수심얕은바다 #화산활동 #가족단위 #피서객 #어린이가놀기좋음 #여름 #물놀이 #최대의해수욕장</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="container_9"></div>
+            </div>
+
+            <div> 
+                <a style="display:scroll;
+                        position:fixed;
+                        bottom:10px;
+                        right:5px;" href="#" title="top"><img src="img/top_btn2.png"></a>
+            </div>
+            
+            
+            </section>
+            <!--하단-->
+            <footer style="white-space:nowrap;">
+                <div class="footer1" style="flex-basis: 360px;">
+                    <p class="footer_logo"></p>
+                    <p class="num">
+                        <br>010.0000.0000
+                        <br>064.000.0000
+                    </p>
+                    <p class="add">
+                        HOTLE SIMILE
+                        <br>제주 제주시 한림읍 상대리 1319-1 대표 :개냥아지조
+                        <br>사업자번호 │ 614-33-00622
+                        <br>농협 356-1445-1158-13 예금주 : 개냥아치조 
+                    </p>
+                    
+                </div>
+                <div class="footer2" style="flex-basis: 400px;">
+                    <div class="sns">
+                        <ul>
+                            <li class="ka"><a href="#"><img src="img/sns_k.png" alt="카카오톡"></a></li>
+                            <li class="fa"><a href="#"><img src="img/sns_f.png" alt="페이스북"></a></li>
+                            <li class="is"><a href="#"><img src="img/sns_i.png" alt="인스타그램"></a></li>
+                        </ul>
+                    </div>
+                    <div class="mark">
+                        <div class="markTxt">농어촌민박사업자진신고번호
+                            <br>제 2020 688호
+                        </div>
+                        <div><img src="img/f_mark.png"></div>
+                    </div>
+                    <div class="copy">
+                        <ul>
+                            <li><a href="#" target="_blank">ADMIN</a></li>
+                            <li>│</li>
+                            <li><a href="#" target="_blank">개인정보취급방침</a></li>
+                            <li>│</li>
+                            <li><a href="#" target="_blank">저작권</a></li>
+                        </ul>
+                        <p class="copy_r">
+                            Copyrights &copy; 0520 SIMILE. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </body>
+    </html>
