@@ -1,0 +1,207 @@
+body{background-image: url(../img/Room_all_BGI4.png);
+        background-repeat: no-repeat;}
+section {margin: 0 auto; padding: 0; box-sizing: border-box;
+        width: 100%;}
+.main_img {width: 100%;}
+.main_img>img{width: 100%;}
+/* 서브 바 */
+.sub_bar{width: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+        height: 50px;
+        box-shadow: 0 5px 5px #ddd5d5;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        top:0;}
+.sub_bar>a {display: block;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+        }
+
+.sub_bar > a:hover {
+                color: #f7ac28;
+            }
+
+
+
+/* 룸이미지 그리드 */
+.grid_con{display: grid;
+        grid-template-rows:auto auto auto;
+        width: 100%;
+        margin-top: 20px;}
+#Room101 {display: grid;
+         grid-template-rows:570px 450px;}
+#Room101>div:nth-child(1) {background-image: url(../img/R1_1.jpg);
+                            max-width: 1024px;}
+#Room101>div:nth-child(2) {background-image: url(../img/dog1_R.png);
+                            background-repeat: no-repeat;
+                            background-position: bottom left;
+                            margin:30px 30px}
+#Room101>div:nth-child(2)>h1{text-align: center;
+                            margin-top: 30px;
+                            font-size: 30px;}
+#Room101>div:nth-child(2)>p{text-align: center;
+                            margin:30px 0 10px 0;}
+#Room101>div:nth-child(2)>.tag {font-size: 15px;
+                                padding: 0; margin: 0;
+                                text-align: center;}
+#Room102 {display: grid;
+        grid-template-rows:570px 450px;}
+#Room102>div:nth-child(1) {background-image: url(../img/R1_2.jpg);
+                            max-width: 1024px;}
+#Room102>div:nth-child(2) {background-image: url(../img/dog2.png);
+                            background-repeat: no-repeat;
+                            background-position: bottom left;
+                            margin:30px 30px}
+#Room102>div:nth-child(2)>h1{text-align: center;
+                            margin-top: 30px;
+                            font-size: 30px;}
+#Room102>div:nth-child(2)>p{text-align: center;
+                            margin:30px 0 10px 0;}
+#Room102>div:nth-child(2)>.tag {font-size: 15px;
+                                padding: 0; margin: 0;
+                                text-align: center;}
+
+#Room103 {display: grid;
+          grid-template-rows:570px 450px;}
+#Room103>div:nth-child(1) {background-image: url(../img/R1_3.jpg);
+                            max-width: 1024px;}
+#Room103>div:nth-child(2) {background-image: url(../img/dog3.png);
+                            background-repeat: no-repeat;
+                            background-position: 70% 100%;
+                            margin:30px 30px}
+#Room103>div:nth-child(2)>h1{text-align: center;
+                            margin-top: 30px;
+                            font-size: 30px;}
+#Room103>div:nth-child(2)>p{text-align: center;
+                            margin:30px 0 10px 0;}
+#Room103>div:nth-child(2)>.tag {font-size: 15px;
+                                padding: 0; margin: 0;
+                                text-align: center;}
+.bottom_img {display: flex;
+        width: 70%;
+            flex-direction: row;
+            flex-wrap:wrap;
+            margin: 0 auto;}
+.bottom_img>div:nth-child(1){background-image: url(../img/BT_img1.jpg);}
+.bottom_img>div:nth-child(2){background-image: url(../img/BT_img2.jpg);}
+.bottom_img>div:nth-child(3){background-image: url(../img/BT_img3.jpg);}
+.bottom_img>div{background-color: rgb(0, 0, 0);
+                width: 400px;
+                height: 400px;
+                margin: 0 auto;
+                justify-content: center;
+                margin-top: 30px;}
+                /* 텍스트 바닥정렬이 안됨... */
+.bottom_img>div p {color: #fff;
+                font-weight: 700;
+                text-align:right;
+                margin: 5px;}
+.span1,.span2,.span3 {display: block;
+        width: 70%;
+        height: 1px;
+        background-color: rgba(18, 17, 17, 0.666);
+        margin: 1px;
+        margin: 0 auto;}
+/* 예약버튼 */
+.btnZ {text-align: center;
+        padding:20px 0;}
+button {background-color: orange;
+            width: 300px;
+            height: 60px;
+            border-radius:10px;
+            border: none;
+            font-weight:bold;
+            color: #fff;
+            font-size: 20px;}
+
+/* 미디어쿼리 */
+
+@media screen and (min-width:1024px)
+{
+body {background-image: url(../img/Room_all_BGI2-1920.png);}
+.grid_con{display: grid;
+    grid-template-rows:570px 570px 570px;
+    width: 100%;
+    grid-gap:30px 0;}
+#Room101 {display: grid;
+        grid-template-columns:60vw 38vw;}
+#Room101>div:nth-child(1) {background-image: url(../img/R1_1.jpg);
+                        max-width: 1094px;}
+#Room101>div:nth-child(2) {background-image: url(../img/dog1_R.png);
+                        background-repeat: no-repeat;
+                        background-position: bottom right;
+                        margin:30px 30px;}
+#Room101>div:nth-child(2)>h1{text-align:left;
+                        margin-top: 30px;
+                        font-size: 30px;}
+#Room101>div:nth-child(2)>p{text-align: left;
+                        margin:30px 0 10px 0;}
+#Room101>div:nth-child(2)>.tag {font-size: 15px;
+                            padding: 0; margin: 0;
+                            text-align:left;
+                            vertical-align: bottom;}
+#Room102 {display: grid;
+        grid-template-columns:38vw 60vw;}
+#Room102>div:nth-child(1) {background-image: url(../img/R1_2.jpg);
+                        max-width: 1094px;
+                        order:2;}
+#Room102>div:nth-child(2) {background-image: url(../img/dog2.png);
+                        background-repeat: no-repeat;
+                        background-position: bottom left;
+                        margin:30px 30px;
+                        order:1;
+                        position: relative;}
+#Room102>div:nth-child(2)>h1{text-align:right;
+                        margin-top: 30px;
+                        font-size: 30px;}
+#Room102>div:nth-child(2)>p{text-align: right;
+                        margin:30px 0 10px 0;}
+#Room102>div:nth-child(2)>.tag {font-size: 15px;
+                            padding: 0; margin: 0;
+                            text-align:right;
+                            vertical-align: bottom;}
+
+#Room103 {display: grid;
+        grid-template-columns:60vw 38vw;}
+#Room103>div:nth-child(1) {background-image: url(../img/R1_3.jpg);
+                        max-width: 1094px;}
+#Room103>div:nth-child(2) {background-image: url(../img/dog3.png);
+                        background-repeat: no-repeat;
+                        background-position: bottom right;
+                        margin:30px 30px;}
+#Room103>div:nth-child(2)>h1{text-align:left;
+                        margin-top: 30px;
+                        font-size: 30px;}
+#Room103>div:nth-child(2)>p{text-align: left;
+                        margin:30px 0 10px 0;}
+#Room103>div:nth-child(2)>.tag {font-size: 15px;
+                            padding: 0; margin: 0;
+                            text-align:left;
+                            }
+.T-B {padding-top:270px;}
+.span1,.span2,.span3 {display: block;
+        width: 70%;
+        height: 1px;
+        background-color: rgba(18, 17, 17, 0.666);
+        margin: 1px;}
+.span2 {position: relative;
+
+        left:30%;}
+/* 예약버튼 */
+
+
+#RESERVATION {background-color: orange;
+        width: 300px;
+        height: 60px;
+        border-radius:10px;
+        border-style: none;
+        font-weight:bold;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: #fff;
+        font-size: 20px;}
+}
+
